@@ -47,7 +47,11 @@ namespace ClassRoomNet60
             _fødselsmåned = fødselsmåned;
             _fødselsdag = fødselsdag;
         }
-        
+
+        public override string ToString()
+        {
+            return ();
+        }
 
     }
 }
